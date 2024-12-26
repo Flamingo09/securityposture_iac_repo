@@ -1,6 +1,6 @@
 provider "google" {
   project = "terraform-cloud-445206"
-  region  = "us-central1"
+  region  = "global"
 }
 resource "google_storage_bucket" "test_bucket_good_1" {
   name                        = "test-bucket-good"
