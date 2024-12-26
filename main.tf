@@ -8,7 +8,7 @@ resource "google_storage_bucket" "test_bucket_good_1" {
   storage_class               = "STANDARD"
   uniform_bucket_level_access = true
 }
-resource "google_storage_bucket" "test_bucket_bad" {
+resource "google_storage_bucket" "test_bucket_bad_1" {
   name                        = "test-bucket-bad"
   location                    = "EU"
   storage_class               = "STANDARD"
