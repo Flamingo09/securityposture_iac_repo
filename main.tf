@@ -2,7 +2,7 @@ provider "google" {
   project = "terraform-cloud-445206"
   region  = "global"
 }
-resource "google_storage_bucket" "test_bucket_good_2" {
+resource "google_storage_bucket" "test_bucket_good_3" {
   name                        = "test-bucket-good"
   location                    = "EU"
   storage_class               = "STANDARD"
